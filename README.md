@@ -7,4 +7,6 @@ This is developed using:=
 *Node js as Backend
 *MongoDb as Database
 
+Future Scope:
 
+We can extend our application to link it with old Age home and also with hospitals so that hospitals can make excessive use of our appications.  
