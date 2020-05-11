@@ -1,0 +1,38 @@
+
+<header>
+<nav class="navbar navbar-inverse" id="homenav">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      
+                  
+&nbsp; &nbsp;
+      <p class="navbar-brand">MedHelpCare</p>
+    </div>
+<!--
+    <form class="navbar-form navbar-ri">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search">
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+-->
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a ui-sref="home.about">Home</a></li>
+             <li><a >Profile</a></li>
+        <li><a>{{email}}</a></li>
+       
+        <li><a ng-click="logout()"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+</header>
+   
+<ui-view></ui-view>

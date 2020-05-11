@@ -1,0 +1,42 @@
+ <div class="container-fluid" id="doneqp">
+      <div class="panel  col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1" id="loginpan">
+    <div class="panel-body">
+                 <center><h2>Fill Equipment Details</h2></center>
+                  <div class="form-group">
+                   <label for="sel1">Select Item to donate:</label>
+   <select class="form-control" id="sel1" ng-model="donate.itemName">
+    <option>equipment1</option>
+    <option>equipment2</option>
+    <option>equipment3</option>
+    <option>equipment4</option>
+  </select>
+   <br/><br/>
+    <form class="form-inline">
+  <div class="form-group">
+    <label for="email">Month:</label>
+    <input type="number" class="form-control" id="email" ng-model="donate.month">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Year:</label>
+    <input type="number" class="form-control" id="pwd" ng-model="donate.year">
+  </div>
+                      </form>
+    <div class="form-group">
+    <label for="email">Description:</label>
+    <input type="text" class="form-control" id="email" ng-model="donate.description">
+  </div>
+           <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Want to Get Paid?</button>
+  <div id="demo" class="collapse">
+     <div class="form-group">
+    <label for="email">Amount You Want To Charge:</label>
+    <input type="number" class="form-control" id="email" ng-model="donate.equipfee">
+  </div>
+  </div>
+
+    <div class="row">
+                    <button type="button" class="btn btn-primary col-sm-4 col-sm-offset-8 col-xs-4 col-xs-offset-8" ng-click="donateEquip()">Donate</button>
+                    </div>
+        </div>
+ </div>
+</div>
+</div>

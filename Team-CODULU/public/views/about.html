@@ -1,0 +1,111 @@
+<div class="container-fluid" id="homemain">
+  <div class="alert alert-danger col-sm-4 col-sm-offset-4" ng-show="errorMsg">
+           <center>{{errorMsg}}</center>
+     </div>
+     <div class="alert alert-success col-sm-4 col-sm-offset-4" ng-show="successMsg">
+         <center>{{successMsg}}</center>
+     </div>
+<b/>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img height="200px"  src="views/c2.jpg" alt="Los Angeles">
+    </div>
+
+    <div class="item">
+      <img src="views/c1.png" alt="Chicago">
+    </div>
+
+    <div class="item">
+      <img src="views/c3.jpg" alt="New York">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+  <div class="container col-sm-offset-1">
+      <center><h1>About Us</h1><hr></center>
+      <br/>
+      <h4>Our website provides a platform to the customer to donate their reusable medical equipments to other needy people. They can donate for free or can make profit by charging some reasonable amount. We also include some additional features like Home Remedies advice option and also person can donate some amount to needy people.</h4>
+    </div>
+    <br/>
+    <div class="container text-center" id="portfolio">
+      <center><h1>Services</h1></center>
+                   
+
+    <h4>What we have offered</h4><hr>
+    
+    <div class="row text-center">
+        
+     <a ui-sref="home.donateequip"> 
+        <div class="col-sm-4">
+        <div class="thumbnail">
+           <img src="views/p2.jpeg" alt="analytics">
+           <h4>Donate Equipment</h4>
+        </div>
+    </div>
+        </a>
+        
+             <a ui-sref="home.homeremedies">
+           <div class="col-sm-4">
+            <div class="thumbnail">
+            <img src="views/p5.jpeg" alt="analytics">
+            <h4>Home Remedies</h4>
+        </div></div>
+            </a>
+         
+        
+        
+        
+         <a ui-sref="home.needequipment">
+          <div class="col-sm-4">
+        <div class="thumbnail">
+           <img src="views/p7.jpeg" alt="analytics">
+           <h4>Need A Equipment</h4>
+        </div>
+    </div>
+         </a>
+    </div>     
+        <div class="row text-center">
+        
+      <a ui-sref="home.needmoney">
+          <div class="col-sm-4 col-sm-offset-2">
+        <div class="thumbnail">
+           <img src="views/p8.jpeg" alt="analytics">
+           <h4>Need Money</h4>
+        </div>
+    </div>
+            </a>
+        
+      
+            
+             <a ui-sref="home.donatemoney"><div class="col-sm-4">
+            <div class="thumbnail">
+            <img src="views/p1.jpeg" alt="analytics">
+            <h4>Donate Money</h4>
+        </div></div>
+        </a>
+    </div>    
+
+    </div>    
+    </div>
+<br><br>
+
+    
+  
